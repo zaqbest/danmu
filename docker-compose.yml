@@ -81,6 +81,7 @@ services:
     mem_limit: 512m
 volumes:
   danmu_server_app_data:
+    external: true
   danmu_server_db_data:
     external: true
 networks:
